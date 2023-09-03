@@ -10,8 +10,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<UserField/>}/>
-        <Route path="/qrImage" element={<Navigation/>}>
-        </Route>
+        <Route path="/qrImage/:uniqueID" element={<Navigation/>}/>
       </Routes>
     </div>
     </BrowserRouter>
