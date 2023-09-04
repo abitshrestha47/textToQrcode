@@ -26,7 +26,7 @@ const Navigation=()=>{
         <div>
           <h2>Generated QR Code</h2>
             <img  src={imageUrls} alt="My Qr Code"/>
-            <button onClick={()=>handleDownload(imageUrls)} className='userButton'>Download QR Code</button>
+            <button onClick={()=>handleDownload(imageUrls)} className='userButton downloadBtn'>Download QR Code</button>
         </div>
     )
 }
